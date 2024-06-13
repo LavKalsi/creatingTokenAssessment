@@ -27,5 +27,5 @@ Click on the MyToken contract in the left-hand sidebar.
 The transact button will be used to perform operations.
 Use the mint function to add tokens to an address.
 Use the burn function to remove tokens from an address, ensuring the address has sufficient balance.
-# by Lav Kalsi
+# By Lav Kalsi
 ThankYou
