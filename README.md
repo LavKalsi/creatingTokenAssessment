@@ -2,21 +2,20 @@
  Create a Token 
 
 #  Description
-This program defines a simple token contract called MyToken with the following features:
+In this program we create a simple token contract called MyToken using the following features:
 
-* Public variables to store the token's name, abbreviation, and total supply.
-* A mapping to keep track of balances associated with addresses.
-* A mint function to create new tokens and assign them to a specified address.
-* A burn function to destroy tokens from a specified address, ensuring the address has sufficient balance to burn the tokens.
-# Getting Started
-To run this program, you can use Remix, an online Solidity IDE:
+* Public variables are used to store the token's name, token's abbreviation, and total supply in the token.
+* A mapping is created to keep track of balances associated with a perticular addresses.
+* A mint function is used to create new tokens and assign them to a specified address.
+* A burn function is used to destroy tokens from a specified address,it also ensues the address has sufficient balance to burn the tokens using the if statement.
+# Running the program
+To run this program, you can use Remix which is an online Solidity IDE:
 
-* Go to the Remix website at Remix.
 * Create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., MyToken.sol).
 * Copy and paste the code provided above into the new file.
-# Compile the code:
+# Compiling the code:
 Click on the "Solidity Compiler" tab in the left-hand sidebar.
-Make sure the "Compiler" option is set to "0.8.18" (or another compatible version).
+Make sure the "Compiler" option is set to "0.8.26" or the version you used specified in the program.
 Click on the "Compile MyToken.sol" button.
 
 # Deploy the contract:
@@ -25,9 +24,8 @@ Select the MyToken contract from the dropdown menu.
 Click on the "Deploy" button.
 Interact with the contract:
 Click on the MyToken contract in the left-hand sidebar.
+The transact button will be used to perform operations.
 Use the mint function to add tokens to an address.
 Use the burn function to remove tokens from an address, ensuring the address has sufficient balance.
-# Authors
-Prajjwal Singh
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+# by Lav Kalsi
+ThankYou
